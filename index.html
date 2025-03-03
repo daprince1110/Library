@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="library-container">
+        <h1>Library Collection</h1>
+        <div class="book-list">
+            <div class="book">
+                <h2>The Great Gatsby</h2>
+                <p><strong>Author:</strong> F. Scott Fitzgerald</p>
+                <p><strong>Genre:</strong> Fiction</p>
+            </div>
+            <div class="book">
+                <h2>To Kill a Mockingbird</h2>
+                <p><strong>Author:</strong> Harper Lee</p>
+                <p><strong>Genre:</strong> Fiction</p>
+            </div>
+            <div class="book">
+                <h2>1984</h2>
+                <p><strong>Author:</strong> George Orwell</p>
+                <p><strong>Genre:</strong> Dystopian</p>
+            </div>
+        </div>
+        <button id="add-book-btn">+</button>
+        <div id="book-dialog" class="dialog">
+            <h2>Add a New Book</h2>
+            <input type="text" id="book-title" placeholder="Book Title">
+            <input type="text" id="book-author" placeholder="Author">
+            <input type="text" id="book-genre" placeholder="Genre">
+            <button id="save-book-btn">Add Book</button>
+            <button id="close-dialog">Cancel</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
