@@ -35,7 +35,15 @@
             <button id="save-book-btn">Add Book</button>
             <button id="close-dialog">Cancel</button>
         </div>
+
+        <div  style = "display:none" class="container" id="storyContainer">
+            <div id="story">Click "Next" to start the story.</div>
+            <button onclick="nextStory()">Next</button>
+            <button class="close-btn" onclick="closeStory()">&times;</button>
+
+        </div>
     </div>
+ 
     <script src="script.js"></script>
 </body>
 </html>
